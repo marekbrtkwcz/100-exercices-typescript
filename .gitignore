@@ -1,0 +1,38 @@
+# zależności
+node_modules/
+package-lock.json
+
+# build / output
+dist/
+build/
+*.tsbuildinfo
+
+# testy / coverage
+coverage/
+.nyc_output/
+
+# logi
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# środowisko
+.env
+.env.local
+.env.*.local
+
+# edytory / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# inne
+*.pid
+*.seed
+*.pid.lock
